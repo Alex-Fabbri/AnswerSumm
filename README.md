@@ -1,6 +1,12 @@
 
 # AnswerSumm: A Manually-Curated Dataset and Pipeline for Answer Summarization
 
-The data can be accessed from this [Google Drive link](https://drive.google.com/file/d/1tzMP38GIXrUFlKUaiNYbTzug-9xxyr5a/view?usp=sharing). </br>
+The huggingface version of the dataset can be accessed [here](https://huggingface.co/datasets/alexfabbri/answersumm):</br>
+
+```python
+from datasets import load_dataset
+answersumm = load_dataset("alexfabbri/answersumm")
+
+```
 
 
